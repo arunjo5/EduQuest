@@ -41,7 +41,7 @@ def CSVapp():
             json={
             "prompt": markdown_string_table + "\nQ: " + user_input + "\nA:",
             "numResults": 1,
-            "maxTokens": 30,
+            "maxTokens": 100,
             "temperature": 0,
             "topKReturn": 0,
             "topP":1,
